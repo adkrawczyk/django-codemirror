@@ -12,8 +12,8 @@ setup(
     description='Django form widget for CodeMirror text editor',
     packages=['codemirror'],
     package_data={'codemirror': [
-        'static/css/*.css',
-        'static/js/*.js'
+        'static/*.css',
+        'static/*.js'
     ]},
     classifiers=[
         'Framework :: Django',
